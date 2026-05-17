@@ -1,0 +1,20 @@
+{
+    "name": "trycap-patchright-demo",
+    "private": true,
+    "scripts": {
+        "start": "node trycap-demo.js",
+        "headless": "node trycap-demo-headless.js",
+        "traffic-matrix": "node traffic-detector-matrix.js",
+        "cap-setup": "node cap-local-setup.js",
+        "cap-live-matrix": "node cap-live-matrix.js",
+        "cap-matrix-browser": "node cap-matrix-browser.js",
+        "cap-solve-node": "node cap-solve-node.js",
+        "cap-solve-raw": "node cap-solve-raw.js"
+    },
+    "dependencies": {
+        "patchright": "^1.59.4",
+        "playwright": "^1.53.2",
+        "puppeteer": "^24.10.2",
+        "selenium-webdriver": "^4.33.0"
+    }
+}
